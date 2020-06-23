@@ -72,11 +72,11 @@ style:
 
   # 颜色配置
   color: 
-    main_color: '#ffb90f'
-    link_color: '#ffb90f'
-    link_color_hover: '#eb5757'
+    main_color: '#0000ff'
+    link_color: '#0000ff'
+    link_color_hover: '#0000cd'
     title: '#50596c'
-    background: '#f4f4f4'
+    background: '#e6e6fa'
     card_color: '#fff'
     font_color: '#4c4d4e'
     codeblock: '#eeeeee'
