@@ -78,17 +78,17 @@ style:
     title: '#50596c'
     background: '#e6e6fa'
     card_color: '#fff'
-    font_color: '#4c4d4e'
+    font_color: '#e6e6fa'
     codeblock: '#eeeeee'
     categories_block: '#c2c2c2'
-    tags_block: '#f4f4f4'
+    tags_block: '#e6e6fa'
     footer_text: '#999'
     footer_link: '#6b6b6b'
   
   # 弧度设置
   radius: 
-    main: 5px
-    button: 5px
+    main: 0px
+    button: 0px
     
   # 间距设置
   space: 
