@@ -14,7 +14,7 @@
 head: 
   
   # 网站图标
-  favicon: /favicon.ico
+  favicon: https://i.loli.net/2020/06/25/KGzSXexqk9BjOa2.png
   
   # 社交分享链接
   opengraph: 
@@ -42,7 +42,7 @@ cover:
   logo: 
   
   # logo 下方的一句话介绍
-  description: Hi, nice to meet you!
+  description: See you next illusion!
   
   # cover 按钮菜单，通常用于站内导航
   menu: 
@@ -115,7 +115,7 @@ meta:
   
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    name: ChrAlpha
+    name: ZHEGExyy
     url: https://chralpha.com
   
   # 文章创建日期
