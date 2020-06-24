@@ -72,7 +72,7 @@ style:
 
   # 颜色配置
   color: 
-    main_color: '#0000ff'
+    main_color: '#e6e6fa'
     link_color: '#0000ff'
     link_color_hover: '#0000cd'
     title: '#50596c'
