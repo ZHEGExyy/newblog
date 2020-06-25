@@ -36,10 +36,10 @@ head:
 cover: 
 
   # 显示在最上方 cover 处的站点名称
-  sitename: MAGIC
+  sitename: OK
 
   # 若设置 logo，则优先使用 logo 代替 sitename，图片source文件夹里
-  logo: /icon.png
+  logo: https://cdn.jsdelivr.net/gh/ZHEGExyy/front/怪盗令_画板 1.png
   
   # logo 下方的一句话介绍
   description: See you next illusion!
@@ -72,23 +72,23 @@ style:
 
   # 颜色配置
   color: 
-    main_color: '#e6e6fa'
-    link_color: '#0000ff'
-    link_color_hover: '#0000cd'
-    title: '#50596c'
-    background: '#e6e6fa'
-    card_color: '#fff'
-    font_color: '#e6e6fa'
-    codeblock: '#eeeeee'
-    categories_block: '#c2c2c2'
-    tags_block: '#e6e6fa'
-    footer_text: '#999'
-    footer_link: '#6b6b6b'
-  
+    main_color: '#ffb90f'			# 主颜色
+    link_color: '#ffb90f'			# 链接颜色
+    link_color_hover: '#eb5757'	# 链接选中时颜色
+    title: '#50596c'				# 标题颜色
+    background: '#f4f4f4'			# 背景颜色
+    card_color: '#fff'			# 卡片背景颜色
+    font_color: '#4c4d4e'			# 字体颜色
+    codeblock: '#fffbf3'			# 代码块背景颜色
+    categories_block: '#c2c2c2'	# 分类标记背景颜色
+    tags_block: '#f4f4f4'			# 标签标记背景颜色
+    footer_text: '#999'			# 网站页脚文字颜色
+    footer_link: '#6c6c6c'		# 网站页脚链接颜色
+   
   # 弧度设置
   radius: 
-    main: 0px
-    button: 0px
+    main: 5px
+    button: 5px
     
   # 间距设置
   space: 
@@ -115,8 +115,8 @@ meta:
   
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    name: ZHEGExyy
-    url: https://chralpha.com
+    name: 谢小diang
+    url: https://zhegexyy.netlify.app/
   
   # 文章创建日期
   date:
@@ -207,8 +207,8 @@ optimize:
     
   # 返回顶部按钮
   back_to_top: 
-    enable: false
-    smoothly: false
+    enable: true
+    smoothly: true
 
   # 深色模式
   darkmode: 
@@ -343,7 +343,7 @@ vendors:
   # https://github.com/ChrAlpha/hexo-theme-cards/tree/master/dist/css
   # Version: 0.5.x
   # 如果你有自定义样式，请务必将此项修改为自己的 CDN 地址，或者单纯留空
-  style: https://cdn.jsdelivr.net/npm/hexo-theme-cards@0.5/dist/css/style.min.css
+  style: #https://cdn.jsdelivr.net/npm/hexo-theme-cards@0.5/dist/css/style.min.css
   
   # code highlight css
   # https://github.com/ChrAlpha/hexo-theme-cards/tree/master/dist/css

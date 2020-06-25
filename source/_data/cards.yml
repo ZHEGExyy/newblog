@@ -1,0 +1,15 @@
+style:  
+ color: 
+    main_color: '#ffb90f'	
+    link_color: '#8a2be2'
+    link_color_hover: '#0000cd'
+    title: '#ff7f50'	
+    background: '#f9f9f9'	
+    card_color: '#fff'
+    font_color: '#4c4d4e'	
+    codeblock: '#eeeeee'
+    categories_block: '#c2c2c2'
+    tags_block: '#e6e6fa'
+    footer_text: '#999'
+    footer_link: '#6b6b6b'
+  
