@@ -14,7 +14,7 @@
 head: 
   
   # 网站图标
-  favicon: https://i.loli.net/2020/06/25/KGzSXexqk9BjOa2.png
+  favicon: /icon.png
   
   # 社交分享链接
   opengraph: 
@@ -38,8 +38,8 @@ cover:
   # 显示在最上方 cover 处的站点名称
   sitename: MAGIC
 
-  # 若设置 logo，则优先使用 logo 代替 sitename
-  logo: 
+  # 若设置 logo，则优先使用 logo 代替 sitename，图片source文件夹里
+  logo: /icon.png
   
   # logo 下方的一句话介绍
   description: See you next illusion!
