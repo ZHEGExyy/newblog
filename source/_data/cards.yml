@@ -2,7 +2,7 @@ style:
  color: 
     main_color: '#ffb90f'	
     link_color: '#8a2be2'
-    link_color_hover: '#0000cd'
+    link_color_hover: '#7b0be3'
     title: '#ff7f50'	
     background: '#f9f9f9'	
     card_color: '#fff'

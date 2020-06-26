@@ -54,8 +54,10 @@ cover:
       url: /archives/
     - name: 友链
       url: /friends/
-    - name: Page
-      url: /page/
+    - name: 分类
+      url: /categories/
+    - name: 关于我
+      url: /about me/
 
 
 
@@ -72,9 +74,9 @@ style:
 
   # 颜色配置
   color: 
-    main_color: '#ffb90f'			# 主颜色
-    link_color: '#ffb90f'			# 链接颜色
-    link_color_hover: '#eb5757'	# 链接选中时颜色
+    main_color: '#7a4df6'			# 主颜色
+    link_color: '#7a4df6'			# 链接颜色
+    link_color_hover: '#7b0be3'	# 链接选中时颜色
     title: '#50596c'				# 标题颜色
     background: '#f4f4f4'			# 背景颜色
     card_color: '#fff'			# 卡片背景颜色

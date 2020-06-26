@@ -4,16 +4,16 @@
 
 # Site
 title: MAGIC
-subtitle: '神奇的科普'
+subtitle: '有许多神奇的事正在发生哦'
 description: ''
 keywords:
-author: xieyuyan
+author: 谢小diang
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zhegexyy.netlify.app/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
