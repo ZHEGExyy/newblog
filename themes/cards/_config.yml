@@ -14,7 +14,7 @@
 head: 
   
   # 网站图标
-  favicon: /icon.png
+  favicon: https://cdn.jsdelivr.net/gh/ZHEGExyy/front/icon.png
   
   # 社交分享链接
   opengraph: 
