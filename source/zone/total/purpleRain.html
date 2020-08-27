@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>csstest</title>
+    
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+        body {
+	    position: absolute;
+	    margin: 0;
+	    padding: 0;
+	    background: #eee;
+	    width: 100%;
+        height: 100%;
+        
+    }
+
+.text {
+    margin: auto;
+    position:absolute;
+    left:0;
+    top:50%;
+    width:100%;
+    /* pointer-events:  none; */
+}
+
+#div1 {
+    transform: translate(0, -60%);
+    color:rgb(255, 255, 255);
+    left:0;
+    width:100%;
+    text-align:center;
+    text-shadow:0px 0px 0px #ffffff;
+    top:-48px;
+    font-family: 'Poiret One', cursive;
+    font-size:70px;  
+    font-weight:lighter;
+
+}
+#clic {
+    transform: translate(0, -150%);
+    font-size:50px;  
+    font-weight:bold
+}
+.button {
+    display: block;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    padding: 15px 25px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    /* 鼠标提示是否可以访问 */
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(138,43,226)  ;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    /* box-shadow: 0 5px 5px rgb(193, 193, 193, 100); */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: rgb(138,43,226);
+    font-size: 35px;
+    box-shadow: 0 0px 20px rgb(255,255,255);
+}
+    </style>
+
+</head>
+
+
+
+<body>
+    <div class="text">
+        <div id="div1" nowrap>PURPLE RAIN<br>A css test in 20/08/26</div>
+        <!-- <div id="clic" >click!</div> -->
+        <button class="button" onclick="Down()">click!</button>
+    </div>
+
+</body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script>
+    class Drop{
+    constructor(x, y) {
+        this.pos = createVector(x, y)
+        
+        this.z =random(0,20)
+        this.len =map(this.z,0,20,15,25)
+        this.yspeed =map(this.z,0,20,4,13)
+        this.dir = createVector(0,0)
+        this.thick=map(this.z,0,20,1,3)
+        this.gra=map(this.z,0,20,0,0.3)
+    }
+        show(){
+            strokeWeight(this.thick)
+            stroke(255)
+            line(this.pos.x,this.pos.y,this.pos.x,this.pos.y+this.len)
+        }
+        fall(){
+            this.pos.add(this.dir)
+            if(this.pos.y>height){
+                this.pos.y=random(-200,-100)
+                this.yspeed =map(this.z,0,20,4,10)
+            }
+        }
+    }
+    </script>
+
+
+
+    <script>
+    
+let d=[]
+let a=0
+function setup(){
+    createCanvas(windowWidth,windowHeight)
+    
+    for(let i=1;i<500;i++){
+        x= random(width)
+        y=random(-200,-100)
+        d[i] = new Drop(x,y)
+    }
+}
+function draw(){
+    background(138,43,226)
+    fill(138,43,226)
+    noStroke()
+    for(let i=1;i<500;i++){
+        d[i].fall()
+        d[i].show()
+    }
+print(d[1].yspeed)
+}
+
+function Down(){
+    if(a==0){
+    for(let i=1;i<500;i++){
+        d[i].yspeed = d[i].yspeed+d[i].gra
+        d[i].dir = createVector(0,d[i].yspeed)
+
+    }
+
+        var div1 = document.getElementById('div1');
+	    div1.style.textShadow="0px 0px 15px #ffffff";
+        // div1.style.fontWeight="bold"
+
+    a=1
+    }else{
+        for(let i=1;i<500;i++){
+            x= random(width)
+            y=random(-200,-100)
+            d[i] = new Drop(x,y)
+            // d[i].yspeed = d[i].yspeed+d[i].gra
+            // d[i].dir = createVector(0,d[i].yspeed)
+        }
+        var div1 = document.getElementById('div1');
+	    div1.style.textShadow="0px 0px 0px #ffffff";
+        a=0
+    }
+        
+     
+}
+    </script>
+<!-- body之外 -->
+</html>

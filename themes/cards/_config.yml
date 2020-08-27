@@ -58,8 +58,13 @@ cover:
       url: /categories/
     - name: 关于我
       url: /about me/
-    - name: 杂记
-      url: /考研叨叨/
+      # https://space.bilibili.com/313199103
+    - name: here
+      url: /zone/total/purpleRain.html
+      # 经试验，必须写完整才不出错
+      # skip_render:  
+      # - "zone/**" //根目录里是这样写的
+      # 文件只能放在zone里面，在子文件夹里的仍然会被render渲染。
 
 
 
