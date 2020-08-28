@@ -48,23 +48,23 @@ cover:
   menu: 
     - name: 首页
       url: /
-    - name: 标签
-      url: /tags/
     - name: 归档
       url: /archives/
-    - name: 友链
-      url: /friends/
+    - name: 标签
+      url: /tags/
     - name: 分类
       url: /categories/
+    - name: 友链
+      url: /friends/
     - name: 关于我
       url: /about me/
       # https://space.bilibili.com/313199103
     - name: here
-      url: /zone/total/purpleRain.html
+      url: /here/total/purpleRain.html
       # 经试验，必须写完整才不出错
       # skip_render:  
-      # - "zone/**" //根目录里是这样写的
-      # 文件只能放在zone里面，在子文件夹里的仍然会被render渲染。
+      # - "here/**" //根目录里是这样写的
+      # 文件只能放在here里面，在子文件夹里的仍然会被render渲染。
 
 
 
@@ -284,9 +284,26 @@ comments:
   
   # Livere 来比力
   livere:
-    enable: 
-    livere_uid:
+    enable: true
+    livere_uid: MTAyMC81MTQyMy8yNzkwNA==
+# <!-- 来必力City版安装代码 -->
+# <div id="lv-container" data-id="city" data-uid="MTAyMC81MTQyMy8yNzkwNA==">
+	# <script type="text/javascript">
+#    (function(d, s) {
+#        var j, e = d.getElementsByTagName(s)[0];
 
+#        if (typeof LivereTower === 'function') { return; }
+
+#        j = d.createElement(s);
+#        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+#        j.async = true;
+
+#        e.parentNode.insertBefore(j, e);
+#    })(document, 'script');
+ 	# </script>
+# <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+# </div>
+# <!-- City版安装代码已完成 -->
   # 畅言
   changyan:
     enable: 
