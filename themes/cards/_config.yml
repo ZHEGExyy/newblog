@@ -46,18 +46,18 @@ cover:
   
   # cover 按钮菜单，通常用于站内导航
   menu: 
-    - name: 首页
+    - name: Home
       url: /
-    - name: 归档
+    - name: Archives
       url: /archives/
-    - name: 标签
+    - name: Tags
       url: /tags/
-    - name: 分类
-      url: /categories/
-    - name: 友链
+    # - name: 分类
+    #   url: /categories/
+    - name: links
       url: /friends/
-    - name: 关于我
-      url: /about me/
+    - name: Search
+      url: /search/
       # https://space.bilibili.com/313199103
     - name: here
       url: /here/total/purpleRain.html
