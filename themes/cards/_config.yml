@@ -160,14 +160,14 @@ meta:
     # 在作者声明和永久链接之后，可以多行，支持 markdown
     custom_text:
       - '[我的bilibili](https://space.bilibili.com/313199103?share_medium=android&share_source=copy_link&bbid=XY7DB9A74A00670C6DE928B70B1B906A528B7&ts=1593195211275 "bilibili")'
-      - '联系我：819620377@qq.com'
+      - '联系我：yuluozhuixing@qq.com'
       # - ''
 
   
   # 网站页脚，支持 markdown
   footer:
     - 'Copyright © 2020'
-    - '819620377@qq.com'
+    - 'yuluozhuixing@qq.com'
     - '[bilibili](https://space.bilibili.com/313199103?share_medium=android&share_source=copy_link&bbid=XY7DB9A74A00670C6DE928B70B1B906A528B7&ts=1593195211275 "bilibili")'
 
 
