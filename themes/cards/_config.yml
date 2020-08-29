@@ -90,7 +90,7 @@ style:
     card_color: '#fff'			# 卡片背景颜色
     font_color: '#4c4d4e'			# 字体颜色
     codeblock: '#fffbf3'			# 代码块背景颜色
-    categories_block: '#c2c2c2'	# 分类标记背景颜色
+    categories_block: '#f5f5f5'	# 分类标记背景颜色
     tags_block: '#f4f4f4'			# 标签标记背景颜色
     footer_text: '#999'			# 网站页脚文字颜色
     footer_link: '#6c6c6c'		# 网站页脚链接颜色
@@ -215,8 +215,8 @@ optimize:
 
   # 图片点击放大插件
   fancybox: 
-    enable: false
-    auto: false
+    enable: true
+    auto: true
     
   # 返回顶部按钮
   back_to_top: 
@@ -234,7 +234,7 @@ optimize:
 # ---------------------------------------------------------------
 
 comments: 
-  enable: 
+  enable: true
 
   ## Disqus
   disqus: 
@@ -432,3 +432,7 @@ vendors:
     # - ''
 
 
+search:
+  enable: true
+  path: search.json
+  field: All  # Page | Post | All

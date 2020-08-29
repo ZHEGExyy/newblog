@@ -100,3 +100,10 @@ theme: cards
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+
+
+search:
+  enable: true
+  path: search.json
+  field: All  # Page | Post | All
