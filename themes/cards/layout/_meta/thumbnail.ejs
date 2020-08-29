@@ -1,9 +1,7 @@
-<% if (post.thumbnail) { %>
-    <% if (position === 'list') { %>
-        <a href="<%- url_for(post.link || post.path) %>">
-            <img alt="Cover Image" src="<%- post.thumbnail %>">
-        </a>
+<% if (theme.meta.thumbnail.enable === true && (post.thumbnail || theme.meta.thumbnail.default)) { %>
+    <% if (config.lazyload && config.lazyload.enable === true) { %>
+        <div class="post-thumbnail lazyload" data-bg="<%= post.thumbnail || theme.meta.thumbnail.default %>"></div>
     <% } else { %>
-        <img alt="Cover Image" src="<%- post.thumbnail %>">
+        <div class="post-thumbnail" style="background-image: url('<%= post.thumbnail || theme.meta.thumbnail.default %>');"></div>
     <% } %>
 <% } %>

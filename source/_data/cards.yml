@@ -1,6 +1,52 @@
+head: 
+  
+  # 网站图标
+  favicon: https://cdn.jsdelivr.net/gh/ZHEGExyy/front/icon.png
+  
+
+navbar: 
+
+  # 左侧名称显示
+  sitename: MAGIC
+  
+  # 右侧站内导航链接
+  menu: 
+    - name: Home
+      url: /
+    - name: Tags
+      url: /tags/
+    # - name: 分类
+    #   url: /categories/
+    - name: Archives
+      url: /archives/
+    - name: Links
+      url: /friends/
+      # https://space.bilibili.com/313199103
+    - name: here
+      url: /here/total/purpleRain.html
+      # 经试验，必须写完整才不出错
+      # skip_render:  
+      # - "here/**" //根目录里是这样写的
+      # 文件只能放在here里面，在子文件夹里的仍然会被render渲染。
+
+
+
+# 封面 cover 设置
+cover: 
+
+  # 显示在最上方 cover 处的站点名称
+  sitename: Demo
+
+  # 若设置 logo，则优先使用 logo 代替 sitename
+  logo: https://cdn.jsdelivr.net/gh/ZHEGExyy/front/怪盗令_画板 1.png
+  
+  # logo 下方的一句话介绍
+  description: See you next illusion!
+
+
 style:  
  color: 
-    main_color: '#ffb90f'	
+    main_color:  '#7b0be3'	
     link_color: '#8a2be2'
     link_color_hover: '#7b0be3'
     title: '#ff7f50'	
@@ -12,4 +58,53 @@ style:
     tags_block: '#e6e6fa'
     footer_text: '#999'
     footer_link: '#6b6b6b'
+#   原版主题的设置，保留！
+# 找到位置：主题/source/css/style/base/defines.styl
+
+meta:
+
+  # 默认文章作者（可在front-matter中覆盖）
+  author:
+    name: 谢小diang
+    url: https://zhegexyy.netlify.app/
   
+  # 文章更新日期
+  updated:
+    title: '最后更新于'
+    format: 'YYYY-MM-DD' # 日期格式 http://momentjs.com/docs/
+
+  # 文章目录
+  toc: 
+    enable: true
+    list_number: false
+
+copyright: 
+
+    enable: true
+    
+    # 在作者声明和永久链接之后，可以多行，支持 markdown
+    custom_text:
+      - '[我的bilibili](https://space.bilibili.com/313199103?share_medium=android&share_source=copy_link&bbid=XY7DB9A74A00670C6DE928B70B1B906A528B7&ts=1593195211275 "bilibili")'
+      - '联系我：yuluozhuixing@qq.com'
+      # - ''
+comments: 
+
+  use: livere
+  
+  livere: 
+    livere_uid: MTAyMC81MTQyMy8yNzkwNA==
+
+footer:
+
+   copyright_since: 2020
+
+note: true
+
+fancybox: 
+
+  enable: true
+  auto: true
+
+back_to_top: true
+
+darkmode: true

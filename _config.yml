@@ -101,8 +101,6 @@ theme: cards
 deploy:
   type: ''
 
-
-
 search:
   enable: true
   path: search.json
