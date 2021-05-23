@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="shortcut icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.png" type="image/png">
+    <title>Total</title>
+
+    <style>
+        .button {
+            display: block;
+            position:absolute;
+            top:70%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        
+            padding: 15px 25px;
+            font-family: 'Poiret One', cursive;
+            font-size: 20px;
+            font-weight:bold;
+            cursor: pointer;
+            /* 鼠标提示是否可以访问 */
+            text-align: center;   
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: rgb(138,43,226)  ;
+            border: 2px solid #fff;
+            border-radius: 15px;
+            /* box-shadow: 0 5px 5px rgb(193, 193, 193, 100); */
+            transition-duration: 0.4s;
+        }
+        
+        .button:hover {
+            background-color: #ffffff;
+            color: rgb(138,43,226);
+            font-size: 35px;
+            box-shadow: 0 0px 20px rgb(255,255,255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <div id="div1" nowrap>进入以下宇宙<br>目前数量（2）</div>
+        <!-- <div id="clic" >click!</div> -->
+        <button class="button" onclick="Down()">Purple Rain</button>
+        <button class="button" onclick="Down()">machine XR</button>
+    </div>
+</body>
+
+</html>
